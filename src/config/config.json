@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "repositories": [
+    "../zerodrivex",
+    "../zdx-parallel-pyxel-vm",
+    "../socialAgents"
+  ],
+  "exclude": [
+    "node_modules/**",
+    ".git/**",
+    "dist/**",
+    "build/**",
+    "coverage/**",
+    ".next/**",
+    "*.png",
+    "*.jpg"
+  ],
+  "outputs": {
+    "chat": true,
+    "docs": true,
+    "embeddings": false
+  },
+  "validation": {
+    "removeDuplicates": true,
+    "secretScan": true,
+    "maxTokens": 8192
+  }
+}
