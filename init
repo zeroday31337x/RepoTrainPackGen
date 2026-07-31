@@ -1,1 +1,24 @@
-init
+Version 1.0
+Supported inputs:
+TypeScript
+JavaScript
+Python
+Rust
+Go
+Java
+C#
+C/C++
+Markdown
+SQL
+JSON
+YAML
+TOML
+Dockerfiles
+Prisma
+HTML/CSS
+Supported outputs:
+train.chat.jsonl
+train.docs.jsonl
+manifest.json
+stats.json
+validation.json
